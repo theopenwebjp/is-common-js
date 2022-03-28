@@ -1,7 +1,4 @@
 # Description
 
 Checks if code is common JS code.
-
-## LICENSE
-
-MIT
+Works in Node.js.

@@ -1,5 +1,7 @@
 
 const traverse = require('traverse')
+// https://www.npmjs.com/package/uglify-es
+// https://www.npmjs.com/package/uglify-js
 const uglify = require('uglify-es')// require("uglify-js")
 const FIRST_INDEX = 0
 const SECOND_INDEX = 1

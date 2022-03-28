@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha ./test/index.js"
   },
-  "keywords": [],
+  "keywords": ["commonjs", "common js", "common", "require", "module.exports", "module", "exports"],
   "author": "Damien Golding",
   "license": "MIT",
   "dependencies": {
@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "fs-extra": "^10.0.1",
     "mocha": "^5.2.0"
   }
 }
