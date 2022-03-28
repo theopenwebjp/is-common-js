@@ -1,5 +1,5 @@
 {
-  "name": "is-common-js",
+  "name": "@theopenweb/is-common-js",
   "version": "1.0.0",
   "description": "Checks if code is common JS code.",
   "main": "index.js",
@@ -7,7 +7,19 @@
     "test": "mocha ./test/index.js"
   },
   "keywords": ["commonjs", "common js", "common", "require", "module.exports", "module", "exports"],
-  "author": "Damien Golding",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theopenwebjp/is-common-js.git"
+  },
+  "author": "The Open Web <noreply@theopenweb.jp> (https://theopenweb.jp)",
+  "contributors": [
+    "Damien Golding <noreply@damiengolding.com> (https://damiengolding.com)"
+  ],
+  "homepage": "https://theopenweb.info",
+  "bugs": {
+    "url": "https://github.com/theopenwebjp/is-common-js/issues"
+  },
+  "private": false,
   "license": "MIT",
   "dependencies": {
     "traverse": "^0.6.6",
